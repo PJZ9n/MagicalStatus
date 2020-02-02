@@ -1,0 +1,18 @@
+<?php
+
+declare(strict_types=1);
+
+namespace PJZ9n\MagicalStatus\Parts\Defined;
+
+use PJZ9n\MagicalStatus\Parts\PartsBase;
+use pocketmine\Player;
+
+class y extends PartsBase
+{
+    
+    public function getString(Player $player): string
+    {
+        return (string)$player->getFloorY();
+    }
+    
+}

@@ -1,0 +1,15 @@
+---
+agree: false
+message:
+  - '§a§l§b{name}§r§aのステータス'
+  - '§b座標: {x}, {y}, {z}'
+  - '§c方位: {direction-jpn}'
+  - '§dオンライン: {nowplayers}/{maxplayers}'
+  - '§e所持金: {economyapimoney}'
+  - '§f所持コイン: {mixcoinsystemcoin}'
+  - '§a現在日時: {date} {time}'
+  - '§bアイテム: {item-id}:{item-damage} {item-name}'
+"interval-tick": 20
+"x-margin": 70
+"y-margin": 5
+...
